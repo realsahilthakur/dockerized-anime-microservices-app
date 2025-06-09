@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: your-dockerhub-username/backend
+  repository: realsahilthakur/backend
   tag: latest
   pullPolicy: IfNotPresent
 service:

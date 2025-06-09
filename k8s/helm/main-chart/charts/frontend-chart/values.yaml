@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: your-dockerhub-username/frontend
+  repository: realsahilthakur/frontend
   tag: latest
   pullPolicy: IfNotPresent
 service:

@@ -1,0 +1,13 @@
+apiVersion: v2
+name: main-chart
+version: 0.1.0
+dependencies:
+  - name: backend-chart
+    version: 0.1.0
+    repository: "file://charts/backend-chart"
+  - name: frontend-chart
+    version: 0.1.0
+    repository: "file://charts/frontend-chart"
+  - name: postgres-chart
+    version: 0.1.0
+    repository: "file://charts/postgres-chart"

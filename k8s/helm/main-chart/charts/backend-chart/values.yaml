@@ -1,14 +1,11 @@
 replicaCount: 1
-
 image:
-  repository: realsahilthakur/backend
+  repository: your-dockerhub-username/backend
   tag: latest
   pullPolicy: IfNotPresent
-
 service:
   type: ClusterIP
   port: 5000
-
 env:
   DB_HOST: postgres
   DB_NAME: anime_db

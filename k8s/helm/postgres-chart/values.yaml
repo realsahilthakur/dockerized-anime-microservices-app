@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: postgres
+  tag: "14"
+  pullPolicy: IfNotPresent
+
+postgres:
+  user: user
+  password: password
+  db: anime_db
+
+service:
+  type: ClusterIP
+  port: 5432
